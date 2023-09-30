@@ -7,6 +7,7 @@
     <title>Ghost Software Productions | Home</title>
     <link href="style.css" rel="stylesheet">
     <style>
+
         .header{
             display: flex;
             justify-content: center;
@@ -15,14 +16,14 @@
         }
 
         .about_rows {
-            display: flex;
+            display: grid;
             justify-content: center;
         }
 
         .about_box1 {
             border-radius: 1vw;
             height: 10vw;
-            width: 40vw;
+            width: 60vw;
             margin-top: 0.2vw;
             margin-right: 0.2vw;
             margin-left: 0.2vw;
@@ -30,7 +31,7 @@
             font-size: 2vw; 
             color: #00FF41;
             background-color: black;
-            font-family: 'Times New Roman', Times, serif;
+            font-family: Courier, Consolas, monospace;
         }
 
         .about_box {
@@ -38,16 +39,18 @@
             height: 10vw;
             width: 30vw;
             margin-top: 5vw;
-            margin-right: 1vw;
-            margin-left: 1vw;
-            font-family: 'Times New Roman', Times, serif;
+            margin-right: auto;
+            margin-left: auto;
+            font-family: Courier, Consolas, monospace;
             background-color: #00FF41;
         }
 
         h1 {
             color: #00FF41;
-            font-size: 4.5vw; 
-            font-family: 'Times New Roman', Times, serif;
+            margin-top: 1vw;
+            font-size: 5vw; 
+            font-family: Courier, Consolas, monospace;
+            font-weight: 600;
             margin-bottom: 0px;
         }
 
@@ -57,7 +60,7 @@
             padding-right: 1.5vw;
             font-size: 2vw;
             text-decoration: none;
-            font-family: 'Times New Roman', Times, serif;
+            font-family: Courier, Consolas, monospace;
         }
 
         .logo_box {
@@ -67,8 +70,8 @@
             width: 6vw;
             margin-top: 1vw;
             margin-bottom: 1vw;
-            margin-left: 0.5vw;
-            margin-right: .05vw;
+            margin-left: auto;
+            margin-right: auto;
             border: 1px solid #00FF41;
         }
 
@@ -79,97 +82,89 @@
         }
     </style>
 </head>
-<body style="background-color: black;">
+<body style="background-color: black; margin-top: 0px; padding-top: 0px;">
     <div class="header">
         <h1>GHOST SOFTWARE PRODUCTIONS</h1>
     </div>
     <hr style = "border-color: #00FF41;">
     <div class = "about_rows">
-        <div style = "margin-left: auto; margin-top: 2vw; margin-right: 1vw;">
-            <div style="background-color: #00FF41; border-radius: 1vw; 
-                    margin-left: auto; margin-bottom: 1vw; height: auto; padding-bottom: 0.2vw;">
-                <div style = "display: flex; font-size: 2vw; font-weight: bold; height: auto;">
-                    <a style="margin-top: 0.2vw; margin-left: 1vw; font-family: 'Times New Roman', Times, serif;">
-                        About
-                    </a>
-                    <a style="margin-top: 0.2vw; margin-right: 1vw; margin-left: auto; border: 1px solid black; width: 2vw;
-                            height: 2vw; text-align: center; border-radius: 2vw;">
-                        X
-                    </a>
-                </div>  
-                <div class = "about_box1" style = "height: auto;">
-                    <p style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;">
-                        Here at Ghost Software Productions, 
-                        we are an agile software development group dedicated to creating personalized software 
-                        solutions for individuals and businesses of all sizes.
-                    </p>
-                </div>
-            </div>
-            <div style="background-color: #00FF41; border-radius: 1vw; margin-top: 1vw; 
-                    margin-left: auto; margin-bottom: 0.5vw; height: fit-content; padding-bottom: 0.2vw;">
-                <div style = "display: flex; font-size: 2vw; font-weight: bold; height: auto;">
-                    <a style="margin-top: 0.2vw; margin-left: 1vw; font-family: 'Times New Roman', Times, serif;">
-                        Software
-                    </a>
-                    <a style="margin-top: 0.2vw; margin-right: 1vw; margin-left: auto; border: 1px solid black; width: 2vw;
-                            height: 2vw; text-align: center; border-radius: 2vw;">
-                        X
-                    </a>
-                </div>  
-                <div class = "about_box1" style = "height: auto;">
-                    <a style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; 
-                            margin-top: 0.2vw; margin-bottom: 0px; font-weight: bold;">
-                        <u>Free Python console software:</u>
-                    </a>
-                    <br>
-                    <a style = "text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;"
-                        href = "https://github.com/Ghost-Software-Productions/Bit-Books">
-                        Bit_books
-                    </a>
-                    <br>
-                    <a style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;"
-                        href = "https://github.com/Ghost-Software-Productions/F-Tracker">
-                        F-Tracker
-                    </a>
-                    <br>
-                    <a style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;"
-                        href = "https://github.com/Ghost-Software-Productions/Console_Trader">
-                        Console-Trader
-                    </a>
-                </div>
-            </div>
-            <div style="background-color: #00FF41; border-radius: 1vw; margin-top: 1vw; 
-                    margin-left: auto; margin-bottom: 0.5vw; height: auto; padding-bottom: 0.2vw;">
-                <div style = "display: flex; font-size: 2vw; font-weight: bold; height: auto;">
-                    <a style="margin-top: 0.2vw; margin-left: 1vw; font-family: 'Times New Roman', Times, serif;">
-                        Projects
-                    </a>
-                    <a style="margin-top: 0.2vw; margin-right: 1vw; margin-left: auto; border: 1px solid black; width: 2vw;
-                            height: 2vw; text-align: center; border-radius: 2vw;">
-                        X
-                    </a>
-                </div>  
-                <div class = "about_box1" style = "height: auto;">
-                    <a style = "text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;"
-                        href = "https://ghost-software-productions.github.io/Rugby_Predictor/">
-                        Rugby Predictor
-                    </a>
-                </div>
-            </div>
-        </div>  
-        <div style="background-color: #00FF41; border-radius: 1vw; margin-top: 2vw; 
-                    margin-left: 1vw; margin-right: auto; padding-top: 0%; height:fit-content; padding-bottom: 0.2vw;">
-            <div style = "display: flex; font-size: 2vw; font-weight: bold;">
-                <a style="margin-top: 0.2vw; margin-left: 1vw; font-family: 'Times New Roman', Times, serif;">
-                    Our Stack:
+        <div style="background-color: #00FF41; border-radius: 1vw; 
+                    margin-left: auto; margin-bottom: 1vw; margin-top: 1vw;height: auto; padding-bottom: 0.2vw;">
+            <div style = "display: flex; font-size: 2vw; font-weight: bold; height: auto;">
+                <a style="margin-top: 0.2vw; margin-left: 1vw; font-family: Courier, Consolas, monospace;">
+                    About:
                 </a>
                 <a style="margin-top: 0.2vw; margin-right: 1vw; margin-left: auto; border: 1px solid black; width: 2vw;
                         height: 2vw; text-align: center; border-radius: 2vw;">
                     X
                 </a>
+            </div>  
+            <div class = "about_box1" style = "height: auto;">
+                <p style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;">
+                    Here at Ghost Software Productions, 
+                    we are an agile software development group dedicated to creating personalized software 
+                    solutions for individuals and businesses of all sizes.
+                </p>
+            </div>
+        </div>
+        <div style="background-color: #00FF41; border-radius: 1vw; 
+                    margin-left: auto; margin-bottom: 1vw; margin-top: 1vw; height: auto; padding-bottom: 0.2vw;">
+            <div style = "display: flex; font-size: 2vw; font-weight: bold; height: auto;">
+                <a style="margin-top: 0.2vw; margin-left: 1vw; font-family: Courier, Consolas, monospace;">
+                    We specialize in:
+                </a>
+                <a style="margin-top: 0.2vw; margin-right: 1vw; margin-left: auto; border: 1px solid black; width: 2vw;
+                        height: 2vw; text-align: center; border-radius: 2vw;">
+                    X
+                </a>
+            </div>  
+            <div class = "about_box1" style = "height: auto;">
+                <p style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;">
+                    Java Console Aplications.
+                </p>
+                <p style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;">
+                    C# Console Aplications.
+                </p>
+                <p style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;">
+                    Python Console Aplications.
+                </p>
+                <p style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;">
+                    Java GUI Aplications.
+                </p>
+                <p style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;">
+                    C# GUI Aplications.
+                </p>
+                <p style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;">
+                    Python GUI Aplications.
+                </p>
+                <p style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;">
+                    Bots.
+                </p>
+                <p style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;">
+                    Web Scraping.
+                </p>
+                <p style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;">
+                    Dynamic Web Projects.
+                </p>
+                <p style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; margin-bottom: 0px;">
+                    And so much more...
+                </p>
+            </div>
+        </div>
+        <div style="background-color: #00FF41; border-radius: 1vw; margin-top: 1vw;  margin-bottom: 1vw;
+                    margin-left: auto; margin-right: auto; padding-top: 0%; height:fit-content; padding-bottom: 0.2vw;
+                    width: 60vw;">
+            <div style = "display: flex; font-size: 2vw; font-weight: bold; align-content: center; align-items: center;">
+                <a style="margin-top: 0.2vw; margin-left: 1vw; font-family: Courier, Consolas, monospace;">
+                    Our Stack:
+                </a>
+                <a style="margin-top: 0.2vw; margin-right: 1vw; margin-left: auto; border: 1px solid black; width: 2vw;
+                height: 2vw; text-align: center; border-radius: 2vw;">
+                    X
+                </a>
             </div>
             <div class = "about_box1" style = "display: flex; width: auto; height: auto">
-                <div class = "logo_box" style = "margin-left: 1vw;">
+                <div class = "logo_box">
                     <img class = "image_logo" src="C sharp.png">
                 </div>
                 <div class = "logo_box">
@@ -181,27 +176,90 @@
                 <div class = "logo_box">
                     <img class = "image_logo" src="js logo.png">
                 </div>
-                <div class = "logo_box" style = "margin-right: 5px;">
+                <div class = "logo_box">
                     <img class = "image_logo" src="css logo.png">
                 </div>
-                <div class = "logo_box" style = "margin-right: 5px;">
+                <div class = "logo_box"">
                     <img class = "image_logo" src="html logo.png">
                 </div>
-                <div class = "logo_box" style = "margin-right: 10px;">
+                <div class = "logo_box">
                     <img class = "image_logo" src="sql logo.png">
                 </div>
             </div>
         </div>
+        <div style="background-color: #00FF41; border-radius: 1vw; margin-top: 1vw; 
+                    margin-left: auto; margin-bottom: 1vw; margin-top: 1vw; height: fit-content; padding-bottom: 0.2vw;">
+            <div style = "display: flex; font-size: 2vw; font-weight: bold; height: auto;">
+                <a style="margin-top: 0.2vw; margin-left: 1vw; font-family: Courier, Consolas, monospace;">
+                    Software:
+                </a>
+                <a style="margin-top: 0.2vw; margin-right: 1vw; margin-left: auto; border: 1px solid black; width: 2vw;
+                        height: 2vw; text-align: center; border-radius: 2vw;">
+                    X
+                </a>
+            </div>  
+            <div class = "about_box1" style = "height: auto;">
+                <a style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; 
+                        margin-top: 0.2vw; margin-bottom: 0px; font-weight: bold; 
+                        font-family: Courier, Consolas, monospace;">
+                    <u>Free Python console software:</u>
+                </a>
+                <br>
+                <a style = "text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; 
+                            margin-bottom: 0px; font-family: Courier, Consolas, monospace;
+                            text-decoration: none; color: #FFBF00;"
+                    href = "https://github.com/Ghost-Software-Productions/Bit-Books">
+                    Bit_books
+                </a>
+                <br>
+                <a style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; 
+                            margin-bottom: 0px; font-family: Courier, Consolas, monospace;
+                            text-decoration: none; color: #FFBF00;"
+                    href = "https://github.com/Ghost-Software-Productions/F-Tracker">
+                    F-Tracker
+                </a>
+                <br>
+                <a style="text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; 
+                            margin-bottom: 0px; font-family: Courier, Consolas, monospace;
+                            text-decoration: none; color: #FFBF00;"
+                    href = "https://github.com/Ghost-Software-Productions/Console_Trader">
+                    Console-Trader
+                </a>
+            </div>
+        </div>
+        <div style="background-color: #00FF41; border-radius: 1vw; margin-top: 1vw; 
+                margin-left: auto; margin-bottom: 1vw; margin-top: 1vw; height: auto; padding-bottom: 0.2vw;">
+            <div style = "display: flex; font-size: 2vw; font-weight: bold; height: auto;">
+                <a style="margin-top: 0.2vw; margin-left: 1vw; font-family: Courier, Consolas, monospace;
+                            text-decoration: none;">
+                    Projects:
+                </a>
+                <a style="margin-top: 0.2vw; margin-right: 1vw; margin-left: auto; border: 1px solid black; width: 2vw;
+                height: 2vw; text-align: center; border-radius: 2vw;">
+                    X
+                </a>
+            </div>  
+            <div class = "about_box1" style = "height: auto;">
+                <a style = "text-justify: justify; margin-left: 1vw; margin-right: 1vw; margin-top: 0.2vw; 
+                            margin-bottom: 0px; font-family: Courier, Consolas, monospace; 
+                            text-decoration: none; color: #FFBF00;"
+                    href = "https://ghost-software-productions.github.io/Rugby_Predictor/">
+                    Rugby Predictor
+                </a>
+            </div>
+        </div> 
     </div>
 </body>
 <footer style = "align-content: center; align-items: center; display: grid;">
     <hr style = " width: 100%; border-color: #00FF41;">
     <a style="text-justify: justify; margin-left: auto; margin-right: auto; 
-            margin-top: 0px; margin-bottom: 0px; color: #00FF41; font-size: 2vw; padding: 0px">
+            margin-top: 0px; margin-bottom: 0px; color: #00FF41; font-size: 2vw; padding: 0px; 
+            font-family: Courier, Consolas, monospace;">
         Contact us:
     </a>
     <a style="text-justify: justify; margin-left: auto; margin-right: auto; 
-            margin-top: 0px; margin-bottom: 0px; color: #00FF41; font-size: 2vw; padding: 0px">
+            margin-top: 0px; margin-bottom: 0px; color: #FFBF00; font-size: 2vw; padding: 0px;
+            font-family: Courier, Consolas, monospace;">
         Email: ghostsoftwareproductions@gmail.com
     </a>
     <hr style = " width: 100%; border-color: #00FF41;">
